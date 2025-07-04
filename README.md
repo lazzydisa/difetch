@@ -9,4 +9,4 @@
 ### ```./difetch```
 
 ## That's all!
-## If you have used it then... Do you really have no some work?..
+## If you have used it then... Do you really have no any work?..
