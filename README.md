@@ -5,8 +5,8 @@
 #### difetch is a minimalistic fetch program for some Linux distributions
 
 ## Usage:
-### Just open a start file!
-### ```./difetch```
+#### Just open a start file!
+#### ```./difetch```
 
 ## That's all!
 ## If you have used it then... Do you really have no any work?..
