@@ -2,6 +2,7 @@
 
 #include <stdlib.h>
 
-void main() {
-    system("bash main.sh");
+int main(void) {
+    system("bash /opt/difetch/main.sh");
+    return 0;
 }
