@@ -1,8 +1,6 @@
 name=$(cat /etc/os-release | grep -w NAME)
 user=$(whoami)
 host=$(cat /etc/hostname)
-desktop=$(echo $DESKTOP_SESSION)
-term=$(echo $TERM)
 
 echo ""
 echo -e "   Welcome to \033[31m$host, \033[30m$user!"
