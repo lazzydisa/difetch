@@ -1,8 +1,21 @@
-name=$(cat /etc/os-release | grep -w NAME)
+# inports
+source variables.sh
 
-# For now fhis construction is for Debian's peculiarities of the /etc/os-release file
-if [ ${name:0:6} = "Debian" ]; then
-    bash /opt/difetch/logo/Debian.sh
+if [ $distro = "Debian.sh" ]; then
+    source /opt/difetch/logo/Debian.sh
 else
-    bash /opt/difetch/logo/"${name:6:-1}.sh"
+    source /opt/difetch/logo/$distro.sh
 fi
+
+# output
+echo ""
+echo -e "   Welcome to \033[35m$host, \033[36m$user!"
+echo ""
+echo -e "$s1    \033[33mOS:         \033[37m$distro"
+echo -e "$s2    \033[33mShell:      \033[37m$shell"
+echo -e "$s3    \033[33mWM/DE:      \033[37m$desktop"
+echo -e "$s4    \033[33mTerminal:   \033[37m$term"
+echo -e "$s5    "
+echo -e "$s6    "
+echo -e "$s7    "
+echo ""
