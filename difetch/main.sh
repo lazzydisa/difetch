@@ -1,5 +1,5 @@
 # inports
-source variables.sh
+source /opt/difetch/variables.sh
 
 if [ $distro = "Debian.sh" ]; then
     source /opt/difetch/logo/Debian.sh
